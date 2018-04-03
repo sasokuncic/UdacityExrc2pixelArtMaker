@@ -7,7 +7,7 @@
 */
 
 // Used color defined in index.html
-var pickedColor = $('#buttonPickColor').css("background-color");
+let pickedColor = $('#buttonPickColor').css("background-color");
 //console.log('initial pickedColor: '+ pickedColor);
 
 // Color selection handler
@@ -37,17 +37,17 @@ function makeGrid() {
 	// Remove existing canvas
 	$("#pixelCanvas").children().remove();
 
-	var nRows = $('#inputHeight').val();
-	var nColumns = $('#inputWeight').val();
-	//var canvasParameters = 'Canvas parameters: \ncellColor:<' + pickedColor + '>\nnColumns:<' + nColumns + '>\nnRows:<' + nRows + '>'
+	const nRows = $('#inputHeight').val();
+	const nColumns = $('#inputWeight').val();
+	//const canvasParameters = 'Canvas parameters: \ncellColor:<' + pickedColor + '>\nnColumns:<' + nColumns + '>\nnRows:<' + nRows + '>'
 	//alert(canvasParameters);
 
 	// Create table with id
-	var $pt = '<table id="puzzletable">';
+	let $pt = '<table id="puzzletable">';
 	// For-loop to create rows
-	for (var y=0; y<nRows; y++) {
+	for (let y=0; y<nRows; y++) {
 		$pt += '<tr>';
-		for (var x=0; x<nColumns; x++) {
+		for (let x=0; x<nColumns; x++) {
 			$pt += '<td>';
 			$pt += '</td>';
 		}
