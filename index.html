@@ -4,25 +4,31 @@
     <title>Pixel Art Maker!</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
 </head>
 <body>
-    <h1>Lab: Pixel Art Maker</h1>
+    <h1>Pixel Art Maker</h1>
 
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
         Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        <input type="number" id="inputHeight" name="height" min="1" value="8">
         Grid Width:
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
-        <input type="submit">
+        <input type="number" id="inputWeight" name="width" min="1" value="8">
+        <input id="buttonSubmit" type="submit" value="Reset Canvas">
+        <input id="buttonHelp" type="submit" value="Help">
     </form>
 
     <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
+        <input id="buttonPickColor" type="color" style="background-color:#000000" value=#000000>
 
     <h2>Design Canvas</h2>
-    <table id="pixelCanvas"></table>
+        <table id="pixelCanvas" style="background-color:#FFFFFF;"></table>
 
+    <footer>
+        <a href="https://www.linkedin.com/in/sasokuncic/" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
+    </footer>
     <script src="designs.js"></script>
 </body>
 </html>

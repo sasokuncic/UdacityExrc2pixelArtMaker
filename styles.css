@@ -1,5 +1,8 @@
 body {
     text-align: center;
+    background-image: url('https://wallpapers.walldevil.com/wallpapers/a48/preview/3178-sun-sunshine-light-sky-cloud.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
