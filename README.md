@@ -2,7 +2,8 @@
 
 ## Web site
 
-* [Pixel Art Maker Apps](https://sasokuncic.github.io/UdacityExrc2pixelArtMaker/)
+* [Pixel Art Maker Apps (GitHub)](https://sasokuncic.github.io/UdacityExrc2pixelArtMaker/)
+* [Pixel Art Maker Apps (Codepen)](https://codepen.io/kuncic/full/ZrWNgp/)
 
 ## Instructions
 
